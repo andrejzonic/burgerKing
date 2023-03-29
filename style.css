@@ -38,15 +38,15 @@ body{
   font-family: "Flame-sans";
 }
 
-.footer-1{
-    font-family: "Flame-sans";
-}
-
 #text{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 1;
+}
+
+.text{
+    padding: 16px 20px;
 }
 
 #text p a{
@@ -119,13 +119,16 @@ p a{
 H1{
     font-size: 26px;
     color: #f5ebdc;
-    margin-top: -9px;
-
+    padding-bottom: 9px;
 }
 
 .p-tekst{
     font-family: 'Flame-Sans';
     color: #bba391;
+}
+
+.href1:hover{
+    text-decoration: none;
 }
 
 .href2{
@@ -166,13 +169,18 @@ H1{
     flex-grow: 1;
     background:#2b0200;
     padding: 90px 120px 50px;
+    font-family: "Flame-sans";
 }
 
 a{
     color: #502314;
     text-decoration: none;
+    padding: 10px;
 }
 
+.head:hover{
+    color: red;
+}
 
 
 .container-1{
@@ -226,11 +234,7 @@ h2{
     
 }
 
-.navlijevo a:hover {
-    margin-left: 15px;
-    color:red; 
-    
-}
+
 
 .navdesno{
     justify-content: space-around;
@@ -252,7 +256,10 @@ h2{
     border: none;
     padding: 10px;
     text-align: center;
-    
+}
+
+.dugme-nav:hover{
+    cursor: pointer;
 }
 
 
@@ -260,7 +267,7 @@ h2{
     color: #ffffff;
     background: #d62300;
     border-radius: 999px;
-    width: 100px;
+    width: 82px;
     height: 30px;
     padding: 6px 24px;
     font-family: "14px Flame, sans-serif";
@@ -268,6 +275,12 @@ h2{
     border: none;
     padding: 10px;
     text-align: center;
+}
+
+.dugme-nav1:hover{
+    cursor: pointer;
+    background: rgba(165, 42, 42, 0.664);
+   
 }
 
 .href0{
@@ -291,7 +304,8 @@ h2{
     justify-content: right;
     text-align: right;
     color: white;
-    font-size: 20px;  
+    font-size: 23px;
+    padding-top: 15px;
 }
 
 .dugmad{
@@ -326,7 +340,8 @@ h2{
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    padding: 16px 5px;  
+    padding: 16px 20px;
+    
  }
 
  .card:nth-child(1) {
@@ -367,7 +382,7 @@ h2{
  
   .dugme1:hover{
     background: rgb(248, 230, 230);
-   color: #d62300;
+   color: #da2606;
   }
 
 
